@@ -3,8 +3,10 @@ require 'line/bot'  # gem 'line-bot-api'
 
 def client
   @client ||= Line::Bot::Client.new { |config|
-    config.channel_secret = ENV["LINE_CHANNEL_SECRET"]
-    config.channel_token = ENV["LINE_CHANNEL_TOKEN"]
+    config.channel_secret = ENV["95b0359572c9e4cfb58af7de6328e519
+"]
+    config.channel_token = ENV["oQKdsxvTtfCDQYMVPJqiZEUO5UjKb1js+t5Znbi9ongpuxo5FjAPWzd8KKYrlDX0tCXvEMf4v4HuZuOF8AuMKGj60rVwn/iBY1xoYvfY1bQKNcKQ/xVl2pe8rVpXBP+HHmA8hhg6Sj0fCGG89f4a3gdB04t89/1O/w1cDnyilFU=
+"]
   }
 end
 
